@@ -10,7 +10,7 @@ To remove datas from excel file use this script change the file name & edit with
 
 import openpyxl
  
-file_path = 'Non_Kernel_Patching_data.xlsx'
+file_path = 'file.xlsx'
 workbook = openpyxl.load_workbook(file_path)
  
 txt_file = 'data_remove.txt'
